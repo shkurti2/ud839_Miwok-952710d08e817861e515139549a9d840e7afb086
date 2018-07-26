@@ -37,6 +37,9 @@
             android:label= "@string/category_colors"/>
         <activity android:name=".PhrasesActivity"
             android:label= "@string/category_phrases"></activity>
+
+        <activity android:name=".recyclerview.TestActivity" />
+
     </application>
 
 </manifest>
