@@ -13,6 +13,7 @@ public class ThingsAdapter extends ListDelegationAdapter<List<DisplayableItem>> 
 
         // Delegates
         this.delegatesManager.addDelegate(new InfoAdapterDelegate());
+        this.delegatesManager.addDelegate(new ImageTextAdapterDelegate());
 
         setItems(items);
     }

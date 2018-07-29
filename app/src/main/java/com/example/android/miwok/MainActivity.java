@@ -21,6 +21,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.android.miwok.recyclerview.TestActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -89,6 +91,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(phrasesIntent);
             }
         });
+
+
+        findViewById(R.id.listShembull).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, TestActivity.class));
+            }
+        });
+
     }
 
 

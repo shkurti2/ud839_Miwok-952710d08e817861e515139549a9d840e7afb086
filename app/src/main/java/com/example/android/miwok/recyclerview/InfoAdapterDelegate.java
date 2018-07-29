@@ -27,7 +27,7 @@ public class InfoAdapterDelegate extends AbsListItemAdapterDelegate<Information,
     @Override
     protected InfoViewHolder onCreateViewHolder(@NonNull ViewGroup parent) {
         Context context = parent.getContext();
-        View inflateView = LayoutInflater.from(context).inflate(R.layout.list_item, parent, false);
+        View inflateView = LayoutInflater.from(context).inflate(R.layout.item_nje_text, parent, false);
         return new InfoViewHolder(inflateView);
     }
 
@@ -42,7 +42,7 @@ public class InfoAdapterDelegate extends AbsListItemAdapterDelegate<Information,
 
         public InfoViewHolder(View itemView) {
             super(itemView);
-            dataTextView = itemView.findViewById(R.id.miwok_text_view);
+            dataTextView = itemView.findViewById(R.id.dataTextView);
         }
     }
 }
