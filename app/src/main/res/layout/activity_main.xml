@@ -46,4 +46,12 @@
         android:background="@color/category_phrases"
         android:text="@string/category_phrases" />
 
+    <TextView
+        android:id="@+id/listShembull"
+        style="@style/CategoryStyle"
+        android:drawablePadding="8dp"
+        android:drawableEnd="@drawable/ic_view_list_white_24dp"
+        android:background="#112233"
+        android:text="List shembull" />
+
 </LinearLayout>
